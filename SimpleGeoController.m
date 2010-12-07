@@ -56,6 +56,17 @@
 
 - (SimpleGeo *)client
 {
+    // invalidate the client when any of the fields change
+    if (client) {
+        if (! [[client url] isEqual:[self apiURL]] ||
+            ! [[client consumerKey] isEqual:[self consumerKey]] ||
+            ! [[client consumerSecret] isEqual:[self consumerSecret]]) {
+            NSLog(@"Invalidating current client; credentials and/or URL changed.");
+            [client release];
+            client = nil;
+        }
+    }
+
     if (! client) {
         client = [[SimpleGeo clientWithDelegate:self
                                     consumerKey:[self consumerKey]
