@@ -17,6 +17,7 @@
 		5DF0881812ADF9F9007A8A60 /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF0878C12ADF9EC007A8A60 /* YAJL.framework */; };
 		5DF0882F12ADFC00007A8A60 /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */; };
 		5DF0884012ADFD79007A8A60 /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */; };
+		5DF088D912AEE349007A8A60 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0878C12ADF9EC007A8A60 /* YAJL.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -81,7 +82,7 @@
 		5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGeoController.m; sourceTree = "<group>"; };
 		5DF085E012AD84D2007A8A60 /* compass_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = compass_512.icns; sourceTree = "<group>"; };
 		5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleGeo.xcodeproj; path = ../SimpleGeo.framework/SimpleGeo.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5DF0878C12ADF9EC007A8A60 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = ../../../../../Library/Frameworks/YAJL.framework; sourceTree = SOURCE_ROOT; };
+		5DF0878C12ADF9EC007A8A60 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = /Library/Frameworks/YAJL.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* SimpleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleApp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +94,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				5DF0884012ADFD79007A8A60 /* SimpleGeo.framework in Frameworks */,
+				5DF088D912AEE349007A8A60 /* YAJL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				5DF0878C12ADF9EC007A8A60 /* YAJL.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -130,7 +133,6 @@
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-				5DF0878C12ADF9EC007A8A60 /* YAJL.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";

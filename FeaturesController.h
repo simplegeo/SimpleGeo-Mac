@@ -31,11 +31,22 @@
 #import <Cocoa/Cocoa.h>
 #import "SimpleGeoController.h"
 
-@interface FeaturesController : SimpleGeoController
+@interface FeaturesController : SimpleGeoController <NSTableViewDataSource>
 {
     IBOutlet NSTextField *handleField;
+    IBOutlet NSButton    *editButton;
+    IBOutlet NSPanel     *editPanel;
+    IBOutlet NSTableView *tableView;
+
+    SGFeature *currentFeature;
+    double pendingLatitude;
+    double pendingLongitude;
+    NSMutableDictionary *pendingChanges;
 }
 
+@property (retain) SGFeature *currentFeature;
+
 - (IBAction)loadFeature:(id)sender;
+- (IBAction)saveFeature:(id)sender;
 
 @end
