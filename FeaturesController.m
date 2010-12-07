@@ -35,6 +35,11 @@
 
 @synthesize currentFeature;
 
+- (IBAction)deleteFeature:(id)sender
+{
+    [[self client] deletePlace:[[self currentFeature] featureId]];
+}
+
 - (IBAction)loadFeature:(id)sender
 {
     [[self client] getFeatureWithHandle:[handleField stringValue]];
@@ -137,6 +142,13 @@ objectValueForTableColumn:(NSTableColumn *)aTableColumn
 
 #pragma mark SimpleGeoDelegate methods
 
+- (void)didDeletePlace:(NSString *)handle
+                 token:(NSString *)token
+{
+    [deleteButton setEnabled:NO];
+    [editButton setEnabled:NO];
+}
+
 - (void)didLoadFeature:(SGFeature *)feature
                 handle:(NSString *)handle
 {
@@ -148,8 +160,10 @@ objectValueForTableColumn:(NSTableColumn *)aTableColumn
         pendingLatitude = [geometry latitude];
         pendingLongitude = [geometry longitude];
 
+        [deleteButton setEnabled:YES];
         [editButton setEnabled:YES];
     } else {
+        [deleteButton setEnabled:NO];
         [editButton setEnabled:NO];
     }
 }

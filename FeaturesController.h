@@ -34,6 +34,7 @@
 @interface FeaturesController : SimpleGeoController <NSTableViewDataSource>
 {
     IBOutlet NSTextField *handleField;
+    IBOutlet NSButton    *deleteButton;
     IBOutlet NSButton    *editButton;
     IBOutlet NSPanel     *editPanel;
     IBOutlet NSTableView *tableView;
@@ -46,6 +47,7 @@
 
 @property (retain) SGFeature *currentFeature;
 
+- (IBAction)deleteFeature:(id)sender;
 - (IBAction)loadFeature:(id)sender;
 - (IBAction)saveFeature:(id)sender;
 
