@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="636"/>
 			<integer value="29"/>
+			<integer value="636"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -669,7 +669,7 @@
 																	<object class="NSTextView" id="396374948">
 																		<reference key="NSNextResponder" ref="783995153"/>
 																		<int key="NSvFlags">2322</int>
-																		<string key="NSFrameSize">{518, 97}</string>
+																		<string key="NSFrame">{{0, 83}, {518, 14}}</string>
 																		<reference key="NSSuperview" ref="783995153"/>
 																		<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																		<object class="NSTextContainer" key="NSTextContainer" id="846347635">
@@ -859,7 +859,7 @@
 													<object class="NSTextField" id="962998547">
 														<reference key="NSNextResponder" ref="326950381"/>
 														<int key="NSvFlags">268</int>
-														<string key="NSFrame">{{132, 373}, {107, 22}}</string>
+														<string key="NSFrame">{{132, 373}, {243, 22}}</string>
 														<reference key="NSSuperview" ref="326950381"/>
 														<bool key="NSEnabled">YES</bool>
 														<object class="NSTextFieldCell" key="NSCell" id="840198398">
@@ -997,7 +997,7 @@
 															<object class="NSTextView" id="529187494">
 																<reference key="NSNextResponder" ref="510843850"/>
 																<int key="NSvFlags">2322</int>
-																<string key="NSFrameSize">{518, 87}</string>
+																<string key="NSFrame">{{0, 73}, {518, 14}}</string>
 																<reference key="NSSuperview" ref="510843850"/>
 																<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																<object class="NSTextContainer" key="NSTextContainer" id="773635076">
@@ -1230,7 +1230,7 @@
 															<object class="NSTextView" id="50388209">
 																<reference key="NSNextResponder" ref="772301693"/>
 																<int key="NSvFlags">2322</int>
-																<string key="NSFrameSize">{518, 62}</string>
+																<string key="NSFrame">{{0, 48}, {518, 14}}</string>
 																<reference key="NSSuperview" ref="772301693"/>
 																<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																<object class="NSTextContainer" key="NSTextContainer" id="319102873">
