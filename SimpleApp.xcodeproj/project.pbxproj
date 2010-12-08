@@ -354,6 +354,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
 					"\"$(SRCROOT)/../SimpleGeo-build/Debug\"",
+					"\"$(SRCROOT)/../SimpleGeo-build/Release\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -361,6 +362,7 @@
 				INFOPLIST_FILE = "SimpleApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = SimpleApp;
+				SYMROOT = "../SimpleGeo-build";
 			};
 			name = Release;
 		};
