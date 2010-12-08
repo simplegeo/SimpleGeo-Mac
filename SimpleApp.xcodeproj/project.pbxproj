@@ -14,10 +14,10 @@
 		5D9EEC6512AC729D002FC462 /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC6412AC729D002FC462 /* ContextController.m */; };
 		5D9EEC8512AC88A7002FC462 /* SimpleGeoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */; };
 		5DF085E112AD84D2007A8A60 /* compass_512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5DF085E012AD84D2007A8A60 /* compass_512.icns */; };
-		5DF0881812ADF9F9007A8A60 /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF0878C12ADF9EC007A8A60 /* YAJL.framework */; };
 		5DF0882F12ADFC00007A8A60 /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */; };
 		5DF0884012ADFD79007A8A60 /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */; };
-		5DF088D912AEE349007A8A60 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0878C12ADF9EC007A8A60 /* YAJL.framework */; };
+		5DF089AE12AF34D8007A8A60 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF089AD12AF34D8007A8A60 /* YAJL.framework */; };
+		5DF089BC12AF34EC007A8A60 /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF089AD12AF34D8007A8A60 /* YAJL.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -28,21 +28,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* SimpleGeo.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = SimpleGeo;
 		};
 		5DF086DF12ADF3DF007A8A60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5DA3C353128E448800E128DC /* Tests.app */;
+			remoteGlobalIDString = 5DA3C353128E448800E128DC;
 			remoteInfo = Tests;
 		};
 		5DF0882B12ADFB5B007A8A60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* SimpleGeo */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = SimpleGeo;
 		};
 /* End PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				5DF0882F12ADFC00007A8A60 /* SimpleGeo.framework in CopyFiles */,
-				5DF0881812ADF9F9007A8A60 /* YAJL.framework in CopyFiles */,
+				5DF089BC12AF34EC007A8A60 /* YAJL.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGeoController.m; sourceTree = "<group>"; };
 		5DF085E012AD84D2007A8A60 /* compass_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = compass_512.icns; sourceTree = "<group>"; };
 		5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleGeo.xcodeproj; path = ../SimpleGeo.framework/SimpleGeo.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5DF0878C12ADF9EC007A8A60 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = /Library/Frameworks/YAJL.framework; sourceTree = "<absolute>"; };
+		5DF089AD12AF34D8007A8A60 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAJL.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SimpleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleApp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				5DF0884012ADFD79007A8A60 /* SimpleGeo.framework in Frameworks */,
-				5DF088D912AEE349007A8A60 /* YAJL.framework in Frameworks */,
+				5DF089AE12AF34D8007A8A60 /* YAJL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				5DF0878C12ADF9EC007A8A60 /* YAJL.framework */,
+				5DF089AD12AF34D8007A8A60 /* YAJL.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -328,18 +328,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SimpleApp_Prefix.pch;
-				HEADER_SEARCH_PATHS = (
-					"${SOURCE_ROOT}/../SimpleGeo-build/Release/SimpleGeo.framework/Headers",
-					"${SOURCE_ROOT}/../SimpleGeo-build/Debug/SimpleGeo.framework/Headers",
-				);
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/../SimpleGeo-build/Debug/SimpleGeo.framework/Headers";
 				INFOPLIST_FILE = "SimpleApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks\"";
 				PRODUCT_NAME = SimpleApp;
 				SYMROOT = "../SimpleGeo-build";
 			};
@@ -352,15 +354,15 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/..\"",
-					"\"$(SRCROOT)/../SimpleGeo-build/Debug\"",
-					"\"$(SRCROOT)/../SimpleGeo-build/Release\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SimpleApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/../SimpleGeo-build/Release/SimpleGeo.framework/Headers";
 				INFOPLIST_FILE = "SimpleApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks\"";
 				PRODUCT_NAME = SimpleApp;
 				SYMROOT = "../SimpleGeo-build";
 			};
