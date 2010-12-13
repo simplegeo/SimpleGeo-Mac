@@ -87,8 +87,11 @@
 
 - (void)requestDidFinish:(ASIHTTPRequest *)request
 {
-    NSLog(@"Request finished: %@", [request responseString]);
-    [outputView setString:[request responseString]];
+	NSString * responseString = [request responseString];
+	NSLog(@"Request finished: %@", responseString);
+	NSDictionary *jsonResponse = [responseString yajl_JSON];
+	NSString * parsedString = [jsonResponse yajl_JSONStringWithOptions:YAJLGenOptionsBeautify indentString:@"  "];
+    [outputView setString:parsedString];
 }
 
 @end

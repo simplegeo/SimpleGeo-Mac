@@ -30,6 +30,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <SimpleGeo/SimpleGeo.h>
+#import <YAJL/YAJL.h>
 
 
 @interface SimpleGeoController : NSObject
