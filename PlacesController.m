@@ -45,9 +45,7 @@
 #pragma mark SimpleGeoPlaceDelegate methods
 
 - (void)didLoadPlaces:(SGFeatureCollection *)places
-                 near:(SGPoint *)point
-             matching:(NSString *)query
-           inCategory:(NSString *)category
+             forQuery:(NSDictionary *)query
 {
 }
 

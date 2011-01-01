@@ -41,7 +41,7 @@
 }
 
 - (void)didLoadContext:(NSDictionary *)context
-                   for:(SGPoint *)point
+              forQuery:(NSDictionary *)query
 {
 }
 

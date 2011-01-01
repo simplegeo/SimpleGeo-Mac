@@ -169,7 +169,8 @@ objectValueForTableColumn:(NSTableColumn *)aTableColumn
     }
 }
 
-- (void)didUpdatePlace:(NSString *)handle
+- (void)didUpdatePlace:(SGFeature *)place
+				handle:(NSString *)handle
                  token:(NSString *)token
 {
     [editPanel close];
