@@ -36,8 +36,8 @@
 
 - (IBAction)loadContext:(id)sender
 {
-    [[self client] getContextFor:[SGPoint pointWithLatitude:[latitudeField doubleValue]
-                                                  longitude:[longitudeField doubleValue]]];
+    [[self client] getContextForPoint:[SGPoint pointWithLatitude:[latitudeField doubleValue]
+                                                       longitude:[longitudeField doubleValue]]];
 }
 
 - (void)didLoadContext:(NSDictionary *)context

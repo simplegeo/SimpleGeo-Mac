@@ -11,41 +11,17 @@
 		256AC3DA0F4B6AC300CF3369 /* SimpleAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* SimpleAppAppDelegate.m */; };
 		5D28B48312AC9955005C3CBF /* PlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28B48212AC9955005C3CBF /* PlacesController.m */; };
 		5D28B4A312ACB029005C3CBF /* FeaturesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28B4A212ACB029005C3CBF /* FeaturesController.m */; };
+		5D76766E12CEAC85006B7D51 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D76766D12CEAC85006B7D51 /* YAJL.framework */; };
+		5D76767D12CEAD68006B7D51 /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D76767C12CEAD68006B7D51 /* SimpleGeo.framework */; };
+		5D76769F12CEAE22006B7D51 /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D76766D12CEAC85006B7D51 /* YAJL.framework */; };
+		5D7676A012CEAE29006B7D51 /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D76767C12CEAD68006B7D51 /* SimpleGeo.framework */; };
 		5D9EEC6512AC729D002FC462 /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC6412AC729D002FC462 /* ContextController.m */; };
 		5D9EEC8512AC88A7002FC462 /* SimpleGeoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */; };
 		5DF085E112AD84D2007A8A60 /* compass_512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5DF085E012AD84D2007A8A60 /* compass_512.icns */; };
-		5DF0882F12ADFC00007A8A60 /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */; };
-		5DF0884012ADFD79007A8A60 /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */; };
-		5DF089AE12AF34D8007A8A60 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF089AD12AF34D8007A8A60 /* YAJL.framework */; };
-		5DF089BC12AF34EC007A8A60 /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF089AD12AF34D8007A8A60 /* YAJL.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5DF086DD12ADF3DF007A8A60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = SimpleGeo;
-		};
-		5DF086DF12ADF3DF007A8A60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5DA3C353128E448800E128DC;
-			remoteInfo = Tests;
-		};
-		5DF0882B12ADFB5B007A8A60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = SimpleGeo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5DF0874C12ADF904007A8A60 /* CopyFiles */ = {
@@ -54,8 +30,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5DF0882F12ADFC00007A8A60 /* SimpleGeo.framework in CopyFiles */,
-				5DF089BC12AF34EC007A8A60 /* YAJL.framework in CopyFiles */,
+				5D7676A012CEAE29006B7D51 /* SimpleGeo.framework in CopyFiles */,
+				5D76769F12CEAE22006B7D51 /* YAJL.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +52,13 @@
 		5D28B48212AC9955005C3CBF /* PlacesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesController.m; sourceTree = "<group>"; };
 		5D28B4A112ACB029005C3CBF /* FeaturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturesController.h; sourceTree = "<group>"; };
 		5D28B4A212ACB029005C3CBF /* FeaturesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturesController.m; sourceTree = "<group>"; };
+		5D76766D12CEAC85006B7D51 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = ext/YAJL.framework; sourceTree = "<group>"; };
+		5D76767C12CEAD68006B7D51 /* SimpleGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleGeo.framework; path = ext/SimpleGeo.framework; sourceTree = "<group>"; };
 		5D9EEC6312AC729D002FC462 /* ContextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextController.h; sourceTree = "<group>"; };
 		5D9EEC6412AC729D002FC462 /* ContextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextController.m; sourceTree = "<group>"; };
 		5D9EEC8312AC88A7002FC462 /* SimpleGeoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleGeoController.h; sourceTree = "<group>"; };
 		5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGeoController.m; sourceTree = "<group>"; };
 		5DF085E012AD84D2007A8A60 /* compass_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = compass_512.icns; sourceTree = "<group>"; };
-		5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleGeo.xcodeproj; path = ../SimpleGeo.framework/SimpleGeo.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5DF089AD12AF34D8007A8A60 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAJL.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SimpleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleApp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,8 +69,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				5DF0884012ADFD79007A8A60 /* SimpleGeo.framework in Frameworks */,
-				5DF089AE12AF34D8007A8A60 /* YAJL.framework in Frameworks */,
+				5D76766E12CEAC85006B7D51 /* YAJL.framework in Frameworks */,
+				5D76767D12CEAD68006B7D51 /* SimpleGeo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				5DF089AD12AF34D8007A8A60 /* YAJL.framework */,
+				5D76767C12CEAD68006B7D51 /* SimpleGeo.framework */,
+				5D76766D12CEAC85006B7D51 /* YAJL.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -148,7 +125,6 @@
 		29B97314FDCFA39411CA2CEA /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -187,15 +163,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5DF086D612ADF3DF007A8A60 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */,
-				5DF086E012ADF3DF007A8A60 /* Tests.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,7 +178,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5DF0882C12ADFB5B007A8A60 /* PBXTargetDependency */,
 			);
 			name = SimpleApp;
 			productInstallPath = "$(HOME)/Applications";
@@ -236,35 +202,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* SimpleApp */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5DF086D612ADF3DF007A8A60 /* Products */;
-					ProjectRef = 5DF086D512ADF3DF007A8A60 /* SimpleGeo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* SimpleApp */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5DF086DE12ADF3DF007A8A60 /* SimpleGeo.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SimpleGeo.framework;
-			remoteRef = 5DF086DD12ADF3DF007A8A60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5DF086E012ADF3DF007A8A60 /* Tests.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Tests.app;
-			remoteRef = 5DF086DF12ADF3DF007A8A60 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -295,14 +238,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5DF0882C12ADFB5B007A8A60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimpleGeo;
-			targetProxy = 5DF0882B12ADFB5B007A8A60 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -331,6 +266,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ext\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -355,6 +291,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ext\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

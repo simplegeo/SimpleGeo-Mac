@@ -53,7 +53,8 @@
                                                     properties:pendingChanges];
 
     [[self client] updatePlace:[[self currentFeature] featureId]
-                          with:pendingFeature];
+                          with:pendingFeature
+					   private:NO];
 }
 
 #pragma mark NSTableViewDataSource methods
