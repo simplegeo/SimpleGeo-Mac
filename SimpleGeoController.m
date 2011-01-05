@@ -82,7 +82,8 @@
 - (void)requestDidFail:(ASIHTTPRequest *)request
 {
     NSLog(@"Request failed: %@: %i", [request responseStatusMessage], [request responseStatusCode]);
-    [outputView setString:[request responseStatusMessage]];
+    [outputView setString:[NSString stringWithFormat:@"%@:\n%@",
+                           [request responseStatusMessage], [request responseString]]];
 }
 
 - (void)requestDidFinish:(ASIHTTPRequest *)request
