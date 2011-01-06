@@ -29,7 +29,6 @@
 //
 
 #import "PlacesController.h"
-#import <SimpleGeo/SimpleGeo+Places.h>
 
 
 @implementation PlacesController
@@ -39,7 +38,8 @@
     [[self client] getPlacesNear:[SGPoint pointWithLatitude:[latitudeField doubleValue]
                                                   longitude:[longitudeField doubleValue]]
                         matching:[queryField stringValue]
-                      inCategory:[categoryField stringValue]];
+                      inCategory:[categoryField stringValue]
+                          within:[radiusField floatValue]];
 }
 
 #pragma mark SimpleGeoPlaceDelegate methods

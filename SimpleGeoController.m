@@ -84,6 +84,8 @@
     NSLog(@"Request failed: %@: %i", [request responseStatusMessage], [request responseStatusCode]);
     [outputView setString:[NSString stringWithFormat:@"%@:\n%@",
                            [request responseStatusMessage], [request responseString]]];
+    [endpointField setStringValue:[[request url] absoluteString]];
+    [outputView scrollPoint:NSMakePoint(0.0,0.0)];
 }
 
 - (void)requestDidFinish:(ASIHTTPRequest *)request
@@ -93,6 +95,8 @@
 	NSDictionary *jsonResponse = [responseString yajl_JSON];
 	NSString * parsedString = [jsonResponse yajl_JSONStringWithOptions:YAJLGenOptionsBeautify indentString:@"  "];
     [outputView setString:parsedString];
+    [endpointField setStringValue:[[request url] absoluteString]];
+    [outputView scrollPoint:NSMakePoint(0.0,0.0)];
 }
 
 @end

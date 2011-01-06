@@ -39,6 +39,7 @@
     IBOutlet NSFormCell *consumerSecretField;
     IBOutlet NSFormCell *apiHostnameField;
     IBOutlet NSTextView *outputView;
+    IBOutlet NSTextField *endpointField;
 
     SimpleGeo *client;
 }

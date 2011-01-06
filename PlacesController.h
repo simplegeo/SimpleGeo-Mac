@@ -38,6 +38,7 @@
     IBOutlet NSTextField *longitudeField;
     IBOutlet NSTextField *queryField;
     IBOutlet NSTextField *categoryField;
+    IBOutlet NSTextField *radiusField;
 }
 
 - (IBAction)loadPlaces:(id)sender;
