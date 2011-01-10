@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>SimpleApp Changelog</title>
+      <link>http://simplegeo.github.com/SimpleApp/app.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>      
+         <item>
+            <title>Version 1.0.0</title>
+            <sparkle:releaseNotesLink />
+            <pubDate>Mon, 10 Jan 2011 17:44:45 +0000</pubDate>
+            <enclosure url="https://github.com/downloads/simplegeo/SimpleApp/SimpleApp-1.0.0.tgz"
+                       sparkle:version="1.0.0"
+                       length="940794"
+                       type="application/octet-stream"
+                       sparkle:dsaSignature="MC4CFQC0GYgJOFK3As9kWL6AUpgoQOnebAIVAI7rAaE7UXJepyNKHEPZ86ap6g/K" />
+         </item>
+   </channel>
+</rss>
