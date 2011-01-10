@@ -18,6 +18,9 @@
 		5D9EEC6512AC729D002FC462 /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC6412AC729D002FC462 /* ContextController.m */; };
 		5D9EEC8512AC88A7002FC462 /* SimpleGeoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */; };
 		5DF085E112AD84D2007A8A60 /* compass_512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5DF085E012AD84D2007A8A60 /* compass_512.icns */; };
+		5DF6545F12D7EDB100664279 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF6545E12D7EDB100664279 /* Sparkle.framework */; };
+		5DF6547312D7EDC100664279 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF6545E12D7EDB100664279 /* Sparkle.framework */; };
+		5DF6547812D7EF1C00664279 /* Sparkle_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6547712D7EF1C00664279 /* Sparkle_pub.pem */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -30,6 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5DF6545F12D7EDB100664279 /* Sparkle.framework in CopyFiles */,
 				5D7676A012CEAE29006B7D51 /* SimpleGeo.framework in CopyFiles */,
 				5D76769F12CEAE22006B7D51 /* YAJL.framework in CopyFiles */,
 			);
@@ -59,6 +63,8 @@
 		5D9EEC8312AC88A7002FC462 /* SimpleGeoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleGeoController.h; sourceTree = "<group>"; };
 		5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGeoController.m; sourceTree = "<group>"; };
 		5DF085E012AD84D2007A8A60 /* compass_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = compass_512.icns; sourceTree = "<group>"; };
+		5DF6545E12D7EDB100664279 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ext/Sparkle.framework; sourceTree = "<group>"; };
+		5DF6547712D7EF1C00664279 /* Sparkle_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sparkle_pub.pem; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SimpleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleApp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF6547312D7EDC100664279 /* Sparkle.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				5D76766E12CEAC85006B7D51 /* YAJL.framework in Frameworks */,
 				5D76767D12CEAD68006B7D51 /* SimpleGeo.framework in Frameworks */,
@@ -99,6 +106,7 @@
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				5D76767C12CEAD68006B7D51 /* SimpleGeo.framework */,
+				5DF6545E12D7EDB100664279 /* Sparkle.framework */,
 				5D76766D12CEAC85006B7D51 /* YAJL.framework */,
 			);
 			name = "Linked Frameworks";
@@ -146,6 +154,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5DF6547712D7EF1C00664279 /* Sparkle_pub.pem */,
 				5DF085E012AD84D2007A8A60 /* compass_512.icns */,
 				8D1107310486CEB800E47090 /* SimpleApp-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -217,6 +226,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				5DF085E112AD84D2007A8A60 /* compass_512.icns in Resources */,
+				5DF6547812D7EF1C00664279 /* Sparkle_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
