@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9408723713EAE6C9009B1F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408723613EAE6C9009B1F7C /* Foundation.framework */; };
+		9408723913EAE6E0009B1F7C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408723813EAE6E0009B1F7C /* Cocoa.framework */; };
+		9408723B13EAE75F009B1F7C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408723A13EAE75F009B1F7C /* libz.dylib */; };
+		9408723D13EAE786009B1F7C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408723C13EAE786009B1F7C /* CoreServices.framework */; };
+		9408723F13EAE794009B1F7C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408723E13EAE793009B1F7C /* SystemConfiguration.framework */; };
+		9408724013EAE7CF009B1F7C /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9468FA8B13EA73EA005F294C /* SimpleGeo.framework */; };
+		9456FB2F13EB51D900DFE2D6 /* StorageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9456FB2E13EB51D900DFE2D6 /* StorageController.m */; };
+		9468FA7E13EA7367005F294C /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468FA7513EA7367005F294C /* ContextController.m */; };
+		9468FA7F13EA7367005F294C /* FeaturesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468FA7713EA7367005F294C /* FeaturesController.m */; };
+		9468FA8013EA7367005F294C /* PlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468FA7913EA7367005F294C /* PlacesController.m */; };
+		9468FA8213EA7367005F294C /* SimpleGeoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468FA7D13EA7367005F294C /* SimpleGeoController.m */; };
+		9468FA8813EA7375005F294C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468FA8413EA7375005F294C /* main.m */; };
+		9468FA8913EA7375005F294C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468FA8513EA7375005F294C /* MainMenu.xib */; };
+		9468FA8C13EA73EA005F294C /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468FA8B13EA73EA005F294C /* SimpleGeo.framework */; };
+		9468FA8F13EA73FB005F294C /* compass_512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9468FA8E13EA73FB005F294C /* compass_512.icns */; };
+		948C0C7613EB18E3007C7FE4 /* SimpleGeoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 948C0C7513EB18E3007C7FE4 /* SimpleGeoAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DF0874C12ADF904007A8A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9408724013EAE7CF009B1F7C /* SimpleGeo.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D1107320486CEB800E47090 /* SimpleGeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9408723613EAE6C9009B1F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9408723813EAE6E0009B1F7C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9408723A13EAE75F009B1F7C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9408723C13EAE786009B1F7C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		9408723E13EAE793009B1F7C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9456FB2D13EB51D900DFE2D6 /* StorageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StorageController.h; path = Classes/StorageController.h; sourceTree = "<group>"; };
+		9456FB2E13EB51D900DFE2D6 /* StorageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StorageController.m; path = Classes/StorageController.m; sourceTree = "<group>"; };
+		9468FA7413EA7367005F294C /* ContextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextController.h; path = Classes/ContextController.h; sourceTree = "<group>"; };
+		9468FA7513EA7367005F294C /* ContextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextController.m; path = Classes/ContextController.m; sourceTree = "<group>"; };
+		9468FA7613EA7367005F294C /* FeaturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeaturesController.h; path = Classes/FeaturesController.h; sourceTree = "<group>"; };
+		9468FA7713EA7367005F294C /* FeaturesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeaturesController.m; path = Classes/FeaturesController.m; sourceTree = "<group>"; };
+		9468FA7813EA7367005F294C /* PlacesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesController.h; path = Classes/PlacesController.h; sourceTree = "<group>"; };
+		9468FA7913EA7367005F294C /* PlacesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesController.m; path = Classes/PlacesController.m; sourceTree = "<group>"; };
+		9468FA7A13EA7367005F294C /* SimpleGeoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleGeoAppDelegate.h; path = Classes/SimpleGeoAppDelegate.h; sourceTree = "<group>"; };
+		9468FA7C13EA7367005F294C /* SimpleGeoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleGeoController.h; path = Classes/SimpleGeoController.h; sourceTree = "<group>"; };
+		9468FA7D13EA7367005F294C /* SimpleGeoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleGeoController.m; path = Classes/SimpleGeoController.m; sourceTree = "<group>"; };
+		9468FA8413EA7375005F294C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Resources/main.m; sourceTree = "<group>"; };
+		9468FA8513EA7375005F294C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = Resources/MainMenu.xib; sourceTree = "<group>"; };
+		9468FA8B13EA73EA005F294C /* SimpleGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleGeo.framework; path = Resources/SimpleGeo.framework; sourceTree = "<group>"; };
+		9468FA8E13EA73FB005F294C /* compass_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = compass_512.icns; sourceTree = "<group>"; };
+		9468FA9013EA7449005F294C /* SimpleGeo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SimpleGeo-Info.plist"; path = "Resources/SimpleGeo-Info.plist"; sourceTree = "<group>"; };
+		9468FA9113EA7449005F294C /* SimpleGeo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SimpleGeo-Prefix.pch"; path = "Resources/SimpleGeo-Prefix.pch"; sourceTree = "<group>"; };
+		9468FA9313EA74AD005F294C /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Credentials.h; path = Resources/Credentials.h; sourceTree = "<group>"; };
+		948C0C7513EB18E3007C7FE4 /* SimpleGeoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleGeoAppDelegate.m; path = Classes/SimpleGeoAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468FA8C13EA73EA005F294C /* SimpleGeo.framework in Frameworks */,
+				9408723B13EAE75F009B1F7C /* libz.dylib in Frameworks */,
+				9408723F13EAE794009B1F7C /* SystemConfiguration.framework in Frameworks */,
+				9408723D13EAE786009B1F7C /* CoreServices.framework in Frameworks */,
+				9408723913EAE6E0009B1F7C /* Cocoa.framework in Frameworks */,
+				9408723713EAE6C9009B1F7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9468FA7A13EA7367005F294C /* SimpleGeoAppDelegate.h */,
+				948C0C7513EB18E3007C7FE4 /* SimpleGeoAppDelegate.m */,
+				9468FA7C13EA7367005F294C /* SimpleGeoController.h */,
+				9468FA7D13EA7367005F294C /* SimpleGeoController.m */,
+				9468FA7413EA7367005F294C /* ContextController.h */,
+				9468FA7513EA7367005F294C /* ContextController.m */,
+				9468FA7613EA7367005F294C /* FeaturesController.h */,
+				9468FA7713EA7367005F294C /* FeaturesController.m */,
+				9468FA7813EA7367005F294C /* PlacesController.h */,
+				9468FA7913EA7367005F294C /* PlacesController.m */,
+				9456FB2D13EB51D900DFE2D6 /* StorageController.h */,
+				9456FB2E13EB51D900DFE2D6 /* StorageController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SimpleGeo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SimpleApp */ = {
+			isa = PBXGroup;
+			children = (
+				9468FA8D13EA73FB005F294C /* Images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SimpleApp;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9468FA8513EA7375005F294C /* MainMenu.xib */,
+				9468FA8413EA7375005F294C /* main.m */,
+				9468FA9013EA7449005F294C /* SimpleGeo-Info.plist */,
+				9468FA9113EA7449005F294C /* SimpleGeo-Prefix.pch */,
+				9468FA9313EA74AD005F294C /* Credentials.h */,
+				948C0C7413EB18AF007C7FE4 /* External Frameworks */,
+				948C0C7313EB18A0007C7FE4 /* Linked Frameworks */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9468FA8D13EA73FB005F294C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9468FA8E13EA73FB005F294C /* compass_512.icns */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		948C0C7313EB18A0007C7FE4 /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9408723A13EAE75F009B1F7C /* libz.dylib */,
+				9408723613EAE6C9009B1F7C /* Foundation.framework */,
+				9408723813EAE6E0009B1F7C /* Cocoa.framework */,
+				9408723E13EAE793009B1F7C /* SystemConfiguration.framework */,
+				9408723C13EAE786009B1F7C /* CoreServices.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		948C0C7413EB18AF007C7FE4 /* External Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9468FA8B13EA73EA005F294C /* SimpleGeo.framework */,
+			);
+			name = "External Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SimpleGeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleGeo" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				5DF0874C12ADF904007A8A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGeo;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SimpleApp;
+			productReference = 8D1107320486CEB800E47090 /* SimpleGeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleGeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SimpleApp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SimpleGeo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468FA8913EA7375005F294C /* MainMenu.xib in Resources */,
+				9468FA8F13EA73FB005F294C /* compass_512.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468FA7E13EA7367005F294C /* ContextController.m in Sources */,
+				9468FA7F13EA7367005F294C /* FeaturesController.m in Sources */,
+				9468FA8013EA7367005F294C /* PlacesController.m in Sources */,
+				9468FA8213EA7367005F294C /* SimpleGeoController.m in Sources */,
+				9468FA8813EA7375005F294C /* main.m in Sources */,
+				948C0C7613EB18E3007C7FE4 /* SimpleGeoAppDelegate.m in Sources */,
+				9456FB2F13EB51D900DFE2D6 /* StorageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Resources\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resources/SimpleGeo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/../SimpleGeo-build/Debug/SimpleGeo.framework/Headers";
+				INFOPLIST_FILE = "Resources/SimpleGeo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = SimpleGeo;
+				SYMROOT = "../SimpleGeo-build";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Resources\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resources/SimpleGeo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SOURCE_ROOT}/../SimpleGeo-build/Release/SimpleGeo.framework/Headers";
+				INFOPLIST_FILE = "Resources/SimpleGeo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = SimpleGeo;
+				SYMROOT = "../SimpleGeo-build";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleGeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleGeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
